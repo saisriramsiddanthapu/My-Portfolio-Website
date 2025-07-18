@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - SAI SRI RAM SIDDANTHAPU</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Devicons for specific tech icons like React, Python, Java (even if Java is removed, kept for potential future use) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">My Portfolio</a>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#languages">Languages</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button id="theme-toggle" class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="container hero-container-layout">
+                <div class="hero-image-container">
+                    <!-- Replace 'your-photo.jpg' with the actual path to your photo -->
+                    <img src="rampfp.jpg" alt="SAI SRI RAM SIDDANTHAPU Profile Photo" class="profile-photo">
+                </div>
+                <div class="hero-content-new">
+                    <h1>Hi, I'm <span class="highlight-text">SAI SRI RAM SIDDANTHAPU</span></h1>
+                    <p>A final-year Computer Science student passionate about software development, data analysis, and cloud technologies. Building scalable, data-driven solutions for tomorrow's challenges.</p>
+                    <div class="social-links hero-social-links">
+                        <a href="https://www.linkedin.com/in/sai-sri-ram-siddanthapu-0962a1255" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/saisriramsiddanthapu" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://leetcode.com/u/SaiSriramSiddanthapu/" target="_blank" aria-label="LeetCode"><i class="fas fa-code"></i></a>
+                        <a href="https://www.hackerrank.com/profile/22A31A0554" target="_blank" aria-label="HackerRank"><i class="fab fa-hackerrank"></i></a>
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn primary-btn"><i class="fas fa-eye"></i> View Projects</a>
+                        <a href="#contact" class="btn secondary-btn"><i class="fas fa-envelope"></i> Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <p>Hello! I'm <strong>SAI SRI RAM SIDDANTHAPU</strong>, a passionate developer with a strong foundation in software development, data analysis, and cloud technologies. I'm currently pursuing a B.Tech in Computer Science and Engineering (2022–2026) at <strong>Pragati Engineering College</strong> with a CGPA of <strong>7.87</strong>.</p>
+    
+                    <p>My academic journey has equipped me with a solid understanding of core computer science principles and hands-on experience building real-world applications. I'm particularly interested in creating scalable, data-driven solutions and continuously honing my technical skills.</p>
+    
+                    <p>Previously, I completed my Intermediate studies at <strong>Aditya Junior College (2020–2022)</strong> with a percentage of <strong>78%</strong>. Outside of academics, I enjoy exploring new technologies, working on side projects, and solving complex problems.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section section-padding">
+            <div class="container">
+                <h2>Technical Skills</h2>
+                <div class="skills-grid">
+                    <!-- Programming Languages Category -->
+                    <div class="skill-category">
+                        <div class="skill-category-header">
+                            <i class="fas fa-code"></i>
+                            <h3>Programming Languages</h3>
+                        </div>
+                        <div class="skill-list-items">
+                            <div class="skill-item">
+                                <div class="skill-item-header">
+                                    <i class="fab fa-python skill-item-icon"></i>
+                                    <span>Python</span>
+                                </div>
+                                <div class="progress-bar-container">
+                                    <div class="progress-fill" style="width: 90%;"></div>
+                                    <span class="progress-percent">90%</span>
+                                </div>
+                            </div>
+                            <!-- Java skill item removed as requested -->
+                            <div class="skill-item">
+                                <div class="skill-item-header">
+                                    <i class="fab fa-js skill-item-icon"></i>
+                                    <span>JavaScript</span>
+                                </div>
+                                <div class="progress-bar-container">
+                                    <div class="progress-fill" style="width: 88%;"></div>
+                                    <span class="progress-percent">88%</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-item-header">
+                                    <i class="fas fa-chart-bar skill-item-icon"></i> <!-- Generic icon for R -->
+                                    <span>R</span>
+                                </div>
+                                <div class="progress-bar-container">
+                                    <div class="progress-fill" style="width: 75%;"></div>
+                                    <span class="progress-percent">75%</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-item-header">
+                                    <i class="fas fa-database skill-item-icon"></i>
+                                    <span>SQL</span>
+                                </div>
+                                <div class="progress-bar-container">
+                                    <div class="progress-fill" style="width: 82%;"></div>
+                                    <span class="progress-percent">82%</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-item-header">
+                                    <i class="fab fa-html5 skill-item-icon"></i>
+                                    <span>HTML/CSS</span>
+                                </div>
+                                <div class="progress-bar-container">
+                                    <div class="progress-fill" style="width: 90%;"></div>
+                                    <span class="progress-percent">90%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tools & Platforms Category -->
+                    <div class="skill-category">
+                        <div class="skill-category-header">
+                            <i class="fas fa-tools"></i>
+                            <h3>Tools & Platforms</h3>
+                        </div>
+                        <div class="skill-list-items">
+                            <div class="skill-item">
+                                <div class="skill-item-header">
+                                    <i class="fas fa-desktop skill-item-icon"></i>
+                                    <span>VS Code</span>
+                                </div>
+                                <div class="progress-bar-container">
+                                    <div class="progress-fill" style="width: 95%;"></div>
+                                    <span class="progress-percent">95%</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-item-header">
+                                    <i class="fas fa-book-open skill-item-icon"></i>
+                                    <span>Jupyter Notebook</span>
+                                </div>
+                                <div class="progress-bar-container">
+                                    <div class="progress-fill" style="width: 85%;"></div>
+                                    <span class="progress-percent">85%</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-item-header">
+                                    <i class="fas fa-paper-plane skill-item-icon"></i>
+                                    <span>Postman</span>
+                                </div>
+                                <div class="progress-bar-container">
+                                    <div class="progress-fill" style="width: 80%;"></div>
+                                    <span class="progress-percent">80%</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-item-header">
+                                    <i class="fas fa-chart-line skill-item-icon"></i>
+                                    <span>Power BI</span>
+                                </div>
+                                <div class="progress-bar-container">
+                                    <div class="progress-fill" style="width: 75%;"></div>
+                                    <span class="progress-percent">75%</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-item-header">
+                                    <i class="fab fa-github skill-item-icon"></i>
+                                    <span>GitHub</span>
+                                </div>
+                                <div class="progress-bar-container">
+                                    <div class="progress-fill" style="width: 88%;"></div>
+                                    <span class="progress-percent">88%</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-item-header">
+                                    <i class="fas fa-bezier-curve skill-item-icon"></i> <!-- generic for make.com -->
+                                    <span>Make.com</span>
+                                </div>
+                                <div class="progress-bar-container">
+                                    <div class="progress-fill" style="width: 70%;"></div>
+                                    <span class="progress-percent">70%</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-item-header">
+                                    <i class="fas fa-network-wired skill-item-icon"></i> <!-- generic for ngrok -->
+                                    <span>ngrok</span>
+                                </div>
+                                <div class="progress-bar-container">
+                                    <div class="progress-fill" style="width: 75%;"></div>
+                                    <span class="progress-percent">75%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Frameworks & Libraries Category -->
+                    <div class="skill-category">
+                        <div class="skill-category-header">
+                            <i class="fas fa-layer-group"></i> <!-- General icon for frameworks -->
+                            <h3>Frameworks & Libraries</h3>
+                        </div>
+                        <div class="skill-list-items">
+                            <div class="skill-item">
+                                <div class="skill-item-header">
+                                    <i class="fas fa-fire skill-item-icon"></i> <!-- Flask - closest to chili -->
+                                    <span>Flask</span>
+                                </div>
+                                <div class="progress-bar-container">
+                                    <div class="progress-fill" style="width: 85%;"></div>
+                                    <span class="progress-percent">85%</span>
+                                </div>
+                            </div>
+                            <!-- Spring Boot skill item removed as requested -->
+                            <div class="skill-item">
+                                <div class="skill-item-header">
+                                    <i class="fas fa-paw skill-item-icon"></i> <!-- Pandas - panda paw -->
+                                    <span>Pandas</span>
+                                </div>
+                                <div class="progress-bar-container">
+                                    <div class="progress-fill" style="width: 88%;"></div>
+                                    <span class="progress-percent">88%</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-item-header">
+                                    <i class="fas fa-calculator skill-item-icon"></i> <!-- NumPy - for calculations -->
+                                    <span>NumPy</span>
+                                </div>
+                                <div class="progress-bar-container">
+                                    <div class="progress-fill" style="width: 85%;"></div>
+                                    <span class="progress-percent">85%</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-item-header">
+                                    <i class="fas fa-brain skill-item-icon"></i> <!-- Scikit-learn - for ML/AI -->
+                                    <span>Scikit-learn</span>
+                                </div>
+                                <div class="progress-bar-container">
+                                    <div class="progress-fill" style="width: 82%;"></div>
+                                    <span class="progress-percent">82%</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-item-header">
+                                    <i class="fab fa-react skill-item-icon"></i> <!-- React -->
+                                    <span>React</span>
+                                </div>
+                                <div class="progress-bar-container">
+                                    <div class="progress-fill" style="width: 78%;"></div>
+                                    <span class="progress-percent">78%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cloud & APIs Category -->
+                    <div class="skill-category">
+                        <div class="skill-category-header">
+                            <i class="fas fa-cloud"></i> <!-- Cloud icon -->
+                            <h3>Cloud & APIs</h3>
+                        </div>
+                        <div class="skill-list-items">
+                            <div class="skill-item">
+                                <div class="skill-item-header">
+                                    <i class="fas fa-google skill-item-icon"></i> <!-- Google Cloud Platform -->
+                                    <span>Google Cloud Platform</span>
+                                </div>
+                                <div class="progress-bar-container">
+                                    <div class="progress-fill" style="width: 80%;"></div>
+                                    <span class="progress-percent">80%</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-item-header">
+                                    <i class="fas fa-sync-alt skill-item-icon"></i> <!-- OpenRouter API - refresh/sync -->
+                                    <span>OpenRouter API</span>
+                                </div>
+                                <div class="progress-bar-container">
+                                    <div class="progress-fill" style="width: 85%;"></div>
+                                    <span class="progress-percent">85%</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-item-header">
+                                    <i class="fas fa-globe skill-item-icon"></i> <!-- REST APIs - web globe -->
+                                    <span>REST APIs</span>
+                                </div>
+                                <div class="progress-bar-container">
+                                    <div class="progress-fill" style="width: 88%;"></div>
+                                    <span class="progress-percent">88%</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-item-header">
+                                    <i class="fas fa-hook skill-item-icon"></i> <!-- Webhooks -->
+                                    <span>Webhooks</span>
+                                </div>
+                                <div class="progress-bar-container">
+                                    <div class="progress-fill" style="width: 75%;"></div>
+                                    <span class="progress-percent">75%</span>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-item-header">
+                                    <i class="fas fa-file-code skill-item-icon"></i> <!-- Open API - file with code -->
+                                    <span>Open API</span>
+                                </div>
+                                <div class="progress-bar-container">
+                                    <div class="progress-fill" style="width: 70%;"></div>
+                                    <span class="progress-percent">70%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="languages" class="languages-section section-padding">
+            <div class="container">
+                <h2>Spoken Languages</h2>
+                <div class="languages-grid">
+                    <div class="language-card">
+                        <h3>Telugu</h3>
+                        <p class="proficiency">Fluent - Native</p>
+                    </div>
+                    <div class="language-card">
+                        <h3>English</h3>
+                        <p class="proficiency">Fluent</p>
+                    </div>
+                    <div class="language-card">
+                        <h3>Hindi</h3>
+                        <p class="proficiency">Moderate</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications" class="certifications-section section-padding">
+            <div class="container">
+                <h2>Certifications</h2>
+                <div class="certifications-list">
+                    <ul>
+                        <li><a href="https://drive.google.com/file/d/1hJNt_I2YfkCw-LG9B_4tWL_yd9aIbz7M/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">Certified System Administrator - Servicenow | Jul 2025 <i class="fas fa-external-link-alt"></i></a></li>
+                        <li><a href="https://drive.google.com/file/d/1hKPeTThWTDWQElXC9nqpJJjnyJ0RzLSN/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">Google Cloud Associate Cloud Engineer - Google Cloud | Jun 2025 <i class="fas fa-external-link-alt"></i></a></li>
+                        <li><a href="https://drive.google.com/file/d/1hMEfDMpddeNEGo5FB46gscVTbCJA_0oe/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">Salesforce AI Associate - Salesforce | FEB 2025 <i class="fas fa-external-link-alt"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section section-padding">
+            <div class="container">
+                <h2>My Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-top-section">
+                            <i class="fas fa-robot project-icon"></i>
+                            <h3>Adaptive GMAT Practice Question Personalized Feedback Agent</h3>
+                        </div>
+                        <div class="project-content-body">
+                            <p>Developed an AI-powered GMAT agent that generated 100+ adaptive questions with 90 percent accuracy, using DeepSeek (OpenRouter). Automated user feedback loops via Make.com and real-time API calls through Flask/ngrok.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/saisriramsiddanthapu/Adaptive-GMAT-Practice-Question-Personalized-Feedback-Agent" target="_blank" class="btn primary-btn project-link-btn">GitHub: Personal AI Agent</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-top-section">
+                            <i class="fas fa-comment-dots project-icon"></i>
+                            <h3>Sentiment-Analysis-for-Product-Reviews</h3>
+                        </div>
+                        <div class="project-content-body">
+                            <p>Developed an AI-based sentiment analysis tool for classifying product reviews. Applied NLP techniques (text preprocessing, TF-IDF, Logistic Regression) and deployed a reusable model for real-world predictions.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/saisriramsiddanthapu/Sentiment-Analysis-for-Product-Reviews" target="_blank" class="btn primary-btn project-link-btn">GitHub: AI Analysis</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-top-section">
+                            <i class="fas fa-cloud-sun-rain project-icon"></i>
+                            <h3>Weather Detection App</h3>
+                        </div>
+                        <div class="project-content-body">
+                            <p>A web application providing real-time weather updates. Users can search for current weather conditions globally, including temperature, humidity, and wind speed. Utilizes the OpenWeatherMap API for accurate data delivery.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/saisriramsiddanthapu/Weather-Detection-App" target="_blank" class="btn primary-btn project-link-btn">GitHub: Weather App</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- New button for viewing more projects -->
+                <div class="projects-view-more-container">
+                    <a href="https://github.com/saisriramsiddanthapu" target="_blank" class="btn primary-btn"><i class="fab fa-github"></i> View More Projects on GitHub</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <p>Have a question or want to work together? Feel free to reach out!</p>
+                <!-- Remember to replace "YOUR_FORM_SUBMISSION_ENDPOINT" with your Formspree URL -->
+                <form class="contact-form" action="https://formspree.io/f/mqalaype" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+                    <button type="submit" class="btn primary-btn">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:sriramsiddanthapu@gmail.com">sriramsiddanthapu@gmail.com</a></p>
+                    <p><i class="fas fa-phone"></i> +91 9502851072</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Jaggampeta, India</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2023 SAI SRI RAM SIDDANTHAPU. All rights reserved.</p>
+            <div class="footer-social-links">
+                <a href="https://www.linkedin.com/in/sai-sri-ram-siddanthapu-0962a1255" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/saisriramsiddanthapu" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://leetcode.com/u/SaiSriramSiddanthapu/" target="_blank" aria-label="LeetCode"><i class="fas fa-code"></i></a>
+                <a href="https://www.hackerrank.com/profile/22A31A0554" target="_blank" aria-label="HackerRank"><i class="fab fa-hackerrank"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
